@@ -34,3 +34,8 @@ def positive_sum(arr):
 
 def positive_sum(arr):
     return sum(x for x in arr if x > 0)
+
+# Solution 5
+
+def positive_sum(arr):
+    return sum(filter(lambda x: x > 0,arr))
